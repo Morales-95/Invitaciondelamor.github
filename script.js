@@ -20,10 +20,11 @@ updateTime();
 // Botón SÍ
 function sayYes() {
   alert(
-    "Gracias por ser mi lirio entre los espinos 🌸\n" +
-    "Te amo más de lo que las palabras pueden decir 💖"
+    "Sabía que dirías que sí 💖✨\n" +
+    "Te amo princesa hermosa, soy feliz estando a tu lado 🥹💖"
   );
 }
+
 
 // Corazones flotando
 const heartsContainer = document.querySelector(".hearts");
@@ -43,3 +44,4 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
